@@ -47,7 +47,12 @@ p.exl {
     </style>
 
 
+<Body>
 
+<style>
+h3 {text-align: center;}
+pre {text-align: center;}
+</style>
 
     <!table of contents>
     <table>
@@ -74,7 +79,7 @@ p.exl {
 
 
   <hr>
-    <h3 id="Abstract">Abstract</b></h3>
+      <h3 id="Abstract"><b>Abstract</b></h3>
 
   <p class="ex1">
   <pre>
@@ -92,7 +97,7 @@ p.exl {
 
 
   <hr>
-      <h3 id="Analysis and discussion">Analysis and discussion</h3>
+      <h3 id="Analysis and discussion"><b>Analysis and discussion</b></h3>
 
   <p class="ex1">
   <pre>
@@ -131,7 +136,7 @@ p.exl {
   </p>
 
   <hr>
-      <h3 id="Study Case">Study Case</h3>
+      <h3 id="Study Case"><b>Study Case</b></h3>
 
   <p class="ex1">
   <pre>
@@ -161,7 +166,7 @@ p.exl {
   </p>
 
      <hr>
-    <h3 id="Conclusion">Conclusion</h3>
+    <h3 id="Conclusion"><b>Conclusion</b></h3>
 
   <p class="ex1">
   <pre>
