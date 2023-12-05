@@ -211,10 +211,42 @@ pre {text-align: center;}
     https://doi.org/10.1016/j.enggeo.2022.106681.
 
 
-    Ritchie, H. (2022) Natural disasters. https://ourworldindata.org/natural-disasters.
-
   </pre>
   </p>
+
+<h2>Conference Presentation: Geotechnical and Infrastructural Damages</h2>
+  <script>
+    // Array of slide image URLs
+    var slideImages = ["slide1.jpg", "slide2.jpg", "slide3.jpg", "slide4.jpg"];
+    function slowSlide() {
+      docmument.getElementById('slide').src = slideImage[currentSlide];
+    }
+    
+    function nextSlide() {
+      currentSlide = (currentSlide + 1) % slideImage.Length;
+      showSlide();
+    }
+
+    function prevslide() {
+      currentSlide = (currentSlide - 1 + slideImages.length) % slideImages.length;
+      showSlide();
+    }
+
+    // Function to show a specific slide based on the button clicked
+    function showslideNumber(slideNumber) {
+      currentSlide = slideNumber - 1;
+      showSlide();
+    }
+
+    //Call showSLide() to display the first slide
+    showSlide();
+  </stript>
+    
+    
+      
+
+    
+  
 
 
       
