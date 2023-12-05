@@ -16,7 +16,6 @@
                  font-family: arial, sans-serif;
                  border-collapes: collapse;
                  width: 30%;
-
                }
 
                td, th {
@@ -86,6 +85,8 @@ p.exl {
     The data and analysis collected are used to consistently construct and maintain safety
     and reliable environment. Which comes with greater importance as it ties with public 
     safety and economic stability. 
+
+<img src="WebBanner2023.png" alt="Banner" width="1200" height="300">
     
   </pre>
   </p>
