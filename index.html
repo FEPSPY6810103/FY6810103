@@ -217,32 +217,55 @@ pre {text-align: center;}
   </p>
 
 <h2>Conference Presentation: Geotechnical and Infrastructural Damages</h2>
+  
   <script>
     // Array of slide image URLs
     var slideImages = ["slide1.jpg", "slide2.jpg", "slide3.jpg", "slide4.jpg"];
+    var currentSlide = 0;
+    
     function slowSlide() {
       docmument.getElementById('slide').src = slideImage[currentSlide];
     }
-    
     function nextSlide() {
       currentSlide = (currentSlide + 1) % slideImage.Length;
       showSlide();
     }
-
     function prevslide() {
       currentSlide = (currentSlide - 1 + slideImages.length) % slideImages.length;
       showSlide();
     }
-
     // Function to show a specific slide based on the button clicked
     function showslideNumber(slideNumber) {
       currentSlide = slideNumber - 1;
       showSlide();
     }
-
     //Call showSLide() to display the first slide
     showSlide();
-  </stript>
+  </script>
+
+
+ <div id="slide-container">
+     <img id="slide: src="slide1.jpg" alt="slide 1" style="width:100%; max-width:800px;">
+
+<!-- Previous and Next buttons container -->
+<div class="button-container">
+  <button class="button" onclick="prevSlide()">Previous</button>
+  <button class="button" onclick="nextSlide()">Next</button>
+</div>
+
+<!-- Slide number buttons container -->
+<div class="slide-number-container">
+  <button class="button" onclick="showSlideNumber(1)">1</button>
+  <button class="button" onclick="showSlideNumber(2)">2</button>
+  <button class="button" onclick="showSlideNumber(3)">3</button>
+  <button class="button" onclick="showSlideNumber(4)">4</button>
+</div>
+   
+  
+    
+  
+    
+    
 
     
     
